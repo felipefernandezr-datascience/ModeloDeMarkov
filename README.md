@@ -1,7 +1,9 @@
 🦠 Simulación Epidemiológica con Cadenas de Markov
 Modelo de propagación para una enfermedad infecciosa
 
+
 Este repositorio contiene un notebook en Python que implementa una simulación epidemiológica utilizando un Modelo de Markov. El objetivo es mostrar cómo las cadenas de Markov permiten modelar la evolución de una enfermedad infecciosa a lo largo del tiempo, analizando el comportamiento de distintos estados de salud dentro de una población.
+
 
 
 📌 Descripción del Proyecto
@@ -20,6 +22,7 @@ Fallecidos (F)
 
 Cada estado tiene asociadas probabilidades de transición que indican la posibilidad de cambiar de un estado a otro cada día. Utilizando estos valores, se construye una matriz de transición, que se aplica de forma iterativa al vector poblacional inicial.
 
+
 El notebook permite:
 
 Definir la población base
@@ -29,6 +32,7 @@ Simular la evolución durante un número determinado de días
 Visualizar gráficamente la progresión de cada estado
 
 Obtener un resumen de los resultados finales
+
 
 
 🧮 Metodología
@@ -44,6 +48,7 @@ Aplicación iterativa de la matriz (N días): Se calcula la evolución poblacion
 Visualización: Se genera una gráfica que muestra la evolución temporal.
 
 
+
 📊 Resultados
 
 La simulación permite observar cómo se distribuye la población a medida que avanza el tiempo, mostrando fenómenos como:
@@ -57,6 +62,7 @@ El crecimiento acumulado de personas fallecidas.
 El equilibrio final al que tiende el modelo.
 
 Estos resultados facilitan la comprensión del comportamiento dinámico de una epidemia bajo un enfoque probabilístico.
+
 
 
 🎯 Objetivo Educativo
@@ -76,6 +82,7 @@ Visualización de procesos dinámicos en Python
 Su propósito es servir como herramienta de aprendizaje para estudiantes o personas interesadas en el modelado matemático de fenómenos reales.
 
 
+
 🛠️ Tecnologías Utilizadas
 
 Python 3
@@ -85,6 +92,7 @@ NumPy
 Matplotlib
 
 JupyterLab (Anaconda)
+
 
 
 📁 Estructura del Repositorio
