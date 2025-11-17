@@ -78,10 +78,13 @@ Su propósito es servir como herramienta de aprendizaje para estudiantes o perso
 ## 📁 Estructura del Repositorio
 
 📦 ModeloDeMarkov
- ├── Modelo_de_Markov.ipynb     # Notebook principal
- └── README.md                  # Documentación del proyecto
+- ├── Modelo_de_Markov.ipynb     # Notebook principal
+- └── README.md                  # Documentación del proyecto
 
+--- 
 
 👨‍💻 Autor
 Felipe Fernández Rodriguez
-Estudiante de Ingeniería en Software y Datos, tecnólogo en Desarrollo de Software, apasionado por la programación, análisis de datos y la creación de modelos computacionales.
+Estudiante de Ingeniería en Software y Datos
+Tecnólogo en Desarrollo de Software
+Apasionado por la programación, análisis de datos y la creación de modelos computacionales.
