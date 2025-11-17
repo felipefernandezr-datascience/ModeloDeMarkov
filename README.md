@@ -9,9 +9,13 @@ Este repositorio contiene un notebook en Python que implementa una simulación e
 La simulación se basa en un modelo epidemiológico simplificado que divide la población en cinco estados:
 
 Sanos (S)
+
 Infección Leve (L)
+
 Infección Grave (G)
+
 Recuperados (R)
+
 Fallecidos (F)
 
 Cada estado tiene asociadas probabilidades de transición que indican la posibilidad de cambiar de un estado a otro cada día. Utilizando estos valores, se construye una matriz de transición, que se aplica de forma iterativa al vector poblacional inicial.
@@ -19,17 +23,24 @@ Cada estado tiene asociadas probabilidades de transición que indican la posibil
 El notebook permite:
 
 Definir la población base
+
 Simular la evolución durante un número determinado de días
+
 Visualizar gráficamente la progresión de cada estado
+
 Obtener un resumen de los resultados finales
 
 
 🧮 Metodología
 
 Definición de probabilidades de transición: Se establecen probabilidades como: Sano → Leve, Leve → Grave, Leve → Recuperado, etc.
+
 Construcción de la matriz de transición: Esta matriz define cómo evoluciona cada estado en cada iteración del modelo.
+
 Vector inicial de población: Se parte de 1,000,000 personas sanas.
+
 Aplicación iterativa de la matriz (N días): Se calcula la evolución poblacional en cada uno de los estados.
+
 Visualización: Se genera una gráfica que muestra la evolución temporal.
 
 
@@ -38,8 +49,11 @@ Visualización: Se genera una gráfica que muestra la evolución temporal.
 La simulación permite observar cómo se distribuye la población a medida que avanza el tiempo, mostrando fenómenos como:
 
 El aumento de personas infectadas en etapas tempranas.
+
 La transición hacia estados graves o recuperación.
+
 El crecimiento acumulado de personas fallecidas.
+
 El equilibrio final al que tiende el modelo.
 
 Estos resultados facilitan la comprensión del comportamiento dinámico de una epidemia bajo un enfoque probabilístico.
@@ -50,9 +64,13 @@ Estos resultados facilitan la comprensión del comportamiento dinámico de una e
 Este proyecto busca reforzar conceptos de:
 
 Cadenas de Markov
+
 Modelos epidemiológicos básicos
+
 Simulación estocástica
+
 Interpretación de datos
+
 Visualización de procesos dinámicos en Python
 
 Su propósito es servir como herramienta de aprendizaje para estudiantes o personas interesadas en el modelado matemático de fenómenos reales.
@@ -61,9 +79,12 @@ Su propósito es servir como herramienta de aprendizaje para estudiantes o perso
 🛠️ Tecnologías Utilizadas
 
 Python 3
+
 NumPy
+
 Matplotlib
-Jupyter Notebook
+
+JupyterLab (Anaconda)
 
 
 📁 Estructura del Repositorio
